@@ -4,7 +4,7 @@
 ```shell
 git clone <repo>
 cd <repo>
-python -m vitualenv env
+python -m virtualenv env
 .\env\Scripts\activate
 pip install -r requirements.txt
 ```
