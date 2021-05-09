@@ -1,7 +1,7 @@
 # Windows-HomeControl
 
 ## Installation
-```shell
+```bash
 git clone <repo>
 cd <repo>
 python -m vitualenv env
