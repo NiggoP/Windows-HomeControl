@@ -1,6 +1,6 @@
 import pathlib
 f = open("autostart.bat", "w")
-f.write("CALL " + str(pathlib.Path(__file__).parent.absolute()) + "\env\Scripts\activate.bat\n")
+f.write("CALL " + str(pathlib.Path(__file__).parent.absolute()) + "\env\Scripts\\activate.bat\n")
 f.write("start pythonw " + str(pathlib.Path(__file__).parent.absolute()) + "\main.pyw\n")
 f.write("exit\n")
 f.close()
