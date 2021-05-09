@@ -1,13 +1,14 @@
 # Windows-HomeControl
 
 ## Installation
-```bash
+```shell
 git clone <repo>
 cd <repo>
 python -m vitualenv env
 .\env\Scripts\activate
 pip install -r requirements.txt
-´´´
+```
 ##Usage
-
+```shell
 py main.py
+```
